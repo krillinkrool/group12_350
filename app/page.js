@@ -1,6 +1,5 @@
 "use client"
 
-import transition from "./transition";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import { Archivo_Narrow } from "next/font/google";
@@ -173,4 +172,4 @@ function Home() {
   );
 }
 
-export default transition(Home);
+export default Home;
