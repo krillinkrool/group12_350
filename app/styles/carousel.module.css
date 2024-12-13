@@ -1,0 +1,32 @@
+.wrapper {
+    max-width: 1200px
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.carousel_body {
+ display: flex;
+ padding: 0 10px;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ background: #343F4F;   
+}
+
+.carousel img {
+    height: 340px;
+    object-fit: center;
+    margin-left: 14px;
+    width: calc(100%/3);
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+    
+}
