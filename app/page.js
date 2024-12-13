@@ -98,7 +98,7 @@ function Home() {
         <AboutPage />
       </div>
 
-      <div className="spacer h-[250px]"></div>
+      <div className="spacer h-[350px]"></div>
   
         <Footer/>
       </div>
